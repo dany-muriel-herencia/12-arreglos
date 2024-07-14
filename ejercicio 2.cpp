@@ -26,10 +26,22 @@ int main(){
     
     for(int k;k<n;k++){
         if(personas[k].edad>50){
-            cout<<personas[k].nombre,20;
-            cout<<endl;
+            cout << "Nombre: " << personas[k].nombre << endl;
+            cout << "DNI: " << personas[k].dni << endl;
+            cout << "Edad: " << personas[k].edad << endl;
+            cout << "--------------------------" << endl;
 
         }
     }
+
+    cout << "Información de todas las personas:\n";
+    for (int k = 0; k < n; k++) {
+        cout << "Nombre: " << personas[k].nombre << endl;
+        cout << "DNI: " << personas[k].dni << endl;
+        cout << "Edad: " << personas[k].edad << endl;
+        cout << "--------------------------" << endl;
+    }
+
+    
     return 0;
 }
