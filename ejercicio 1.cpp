@@ -3,7 +3,7 @@ using namespace std;
 
 
 int main(){
-    int a,b,n,ma=000,me=67946889;
+    int a,b,n,ma=000,me=99999;
     cout<<"ingrese la cantidad de los empleados: ";cin>>n;
          struct personal{
     char nombre[20];
@@ -23,7 +23,7 @@ int main(){
             me = empleados[i].sueldo;
             a=i;
         }
-        if(empleados[i].sueldo > ma){
+        else if(empleados[i].sueldo > ma){
             ma=empleados[i].sueldo;
             b=i;
 

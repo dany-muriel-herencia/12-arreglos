@@ -19,7 +19,6 @@ int main(){
 
         //implementacioj de la if para hallar promedios
 
-        a=personas[i].edad+a;
         
         }
         cout<<"usuarios con edad mayor:   \n";
